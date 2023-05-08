@@ -12,10 +12,12 @@ isInstructor = false;
 let hobbies: string[];
 hobbies = ['Sports', 'Cooking'];
 
-let person: { name: string; age: number };
+type Person = { name: string; age: number };
+
+let person: Person;
 person = { name: 'Thomas', age: 31 };
 
-let people: { name: string; age: number }[];
+let people: Person[];
 
 // Function types, parameters
 
