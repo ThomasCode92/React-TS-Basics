@@ -20,6 +20,13 @@ person = { name: 'Thomas', age: 31 };
 let people: Person[];
 
 // Function types, parameters
+function add(a: number, b: number) {
+  return a + b;
+}
+
+function printOutput(value: string) {
+  console.log(value);
+}
 
 // Type inference
 let course = 'React - The Complete Guide'; // course is now of type string
