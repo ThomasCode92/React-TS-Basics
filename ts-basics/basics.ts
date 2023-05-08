@@ -18,3 +18,6 @@ person = { name: 'Thomas', age: 31 };
 let people: { name: string; age: number }[];
 
 // Function types, parameters
+
+// Type inference
+let course = 'React - The Complete Guide'; // course is now of type string
