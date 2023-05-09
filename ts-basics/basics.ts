@@ -33,3 +33,14 @@ let course = 'React - The Complete Guide'; // course is now of type string
 
 // Union Types
 let book: string | number;
+
+// Generics
+function insertAtBeginning<T>(array: T[], value: T) {
+  const newArray = [value, ...array];
+  return newArray;
+}
+
+const demoArray = [1, 2, 3];
+const updatedArray = insertAtBeginning(demoArray, 0);
+
+const stringArray = insertAtBeginning(['a', 'b', 'c'], 'x');
