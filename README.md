@@ -1,4 +1,4 @@
-# React-TypeScritp Basics
+# React-TypeScript Basics
 
 Get an introduction to _TypeScript_ itself and use it in a React.js Project!
 
