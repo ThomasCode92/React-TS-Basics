@@ -1,10 +1,16 @@
 import React from 'react';
+
+import Todos from './components/Todos';
 import './App.css';
 
 console.log('hello');
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Todos />
+    </div>
+  );
 }
 
 export default App;
