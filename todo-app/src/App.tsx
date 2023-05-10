@@ -3,12 +3,12 @@ import React from 'react';
 import Todos from './components/Todos';
 import './App.css';
 
-console.log('hello');
+const todos = ['Learn React', 'Learn TypeScript'];
 
 function App() {
   return (
     <div>
-      <Todos />
+      <Todos items={todos} />
     </div>
   );
 }

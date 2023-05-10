@@ -1,10 +1,13 @@
 import React from 'react';
 
-function Todos() {
+type TodosProps = { items: string[] };
+
+function Todos(props: TodosProps) {
   return (
     <ul>
-      <li>Learn React</li>
-      <li>Learn TypeScript</li>
+      {props.items.map(item => (
+        <li>{item}</li>
+      ))}
     </ul>
   );
 }
